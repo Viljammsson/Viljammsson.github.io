@@ -1,0 +1,107 @@
+
+body {
+   background: linear-gradient(to bottom, #A66F2E 0%, #f3d5ad 100%) ;
+    display: flex;
+    flex-direction: column; /* asettaa tekstit päällekkäin */
+    justify-content: center; /* keskittää pystysuunnassa */
+    align-items: center; /* keskittää vaakasuunnassa */
+    min-height: 100vh; /*selaimen korkeus*/
+    margin: 0;
+}
+
+h1.titles, h3, h2 {
+   font-size: 2.5em;
+   color: aliceblue;
+    margin: 12px 0;
+    font-family: 'Spectral', serif;
+    margin-top: 50px;
+}
+
+p {
+color: aliceblue;
+margin: 12px 0;
+}
+
+
+#special-message
+{
+margin: 30px;
+align-items: center;
+color: aliceblue;
+font-size: 1.5em;
+font-family: 'Spectral', serif;
+font-weight: bold;
+}
+
+img {
+    width: 1280px;
+    height: 720px;
+    margin: 30px;
+    margin-bottom: 70px;
+}
+
+.first-div
+{
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-div{
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-div ul
+{
+    font-size: 1.6em;
+    font-family: 'Spectral', serif;
+    color: aliceblue;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.second-div ul
+{
+    font-size: 1.6em;
+    font-family: 'Spectral', serif;
+    color: aliceblue;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.lists-container 
+{
+  display: flex;
+  gap: 50px; /* väli listojen väliin */
+  justify-content: center; /* keskittää vaakasuunnassa */
+  align-items: flex-start; /* listat pysyvät ylhäältä tasattuina */
+}
+
+a {
+    font-size: 1.6em;
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+}
+
+.first-div h2
+{
+    font-size: 1.6em;
+}
+
+.second-div h2
+{
+    font-size: 1.6em;
+}
+
+a[target] {
+    font-size: x-large;
+    color: rgb(132, 0, 255);
+    font-family: 'Spectral', serif;
+    text-decoration: underline;
+}
